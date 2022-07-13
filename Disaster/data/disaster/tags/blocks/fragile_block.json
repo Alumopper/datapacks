@@ -1,0 +1,15 @@
+{
+    "values": [
+        "#leaves",
+        "dirt",
+        "grass_block",
+        "bamboo",
+        "bamboo_sapling",
+        "glass",
+        "glass_pane",
+        "#ice",
+        "#buttons",
+        "#doors",
+        "#crops"
+    ]
+}

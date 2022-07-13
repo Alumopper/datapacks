@@ -1,0 +1,2 @@
+execute as @e[tag=disaster_victim_core] at @s unless entity @e[tag=disaster_tower,distance=..100,scores={dis_protower=200..}] run function disaster:disaster/each/corpse_tide/do
+execute if entity @e[tag=disaster_corpse_tide] run schedule function disaster:disaster/each/corpse_tide/tick 10s

@@ -1,0 +1,2 @@
+execute as @a[scores={dis_stone_count=1..}] at @s at @e[type=item,distance=0..3,limit=1,nbt={Item:{id:"minecraft:cobblestone",Count:1b}}] run function disaster:disaster/each/earthquake/do
+scoreboard players set @a dis_stone_count 0

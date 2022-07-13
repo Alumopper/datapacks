@@ -1,0 +1,10 @@
+execute as @e[tag=disaster_mud_rain] run function disaster:disaster/each/mud_rain/tick
+#execute as @e[tag=disaster_corpse_tide] run function disaster:disaster/each/corpse_tide/tick
+#execute as @e[tag=disaster_storm] run function disaster:disaster/each/storm/tick
+#execute as @e[tag=disaster_great_meteorite] run function disaster:disaster/each/great_meteorite/tick
+execute as @e[tag=disaster_meteorite_rain] run function disaster:disaster/each/meteorite_rain/tick
+execute as @e[tag=disaster_life_still] run function disaster:disaster/each/life_still/tick
+execute if score dis_type dis_temp matches 5 unless entity @e[tag=disaster_life_still] run function disaster:disaster/each/life_still/end
+execute as @e[tag=disaster_unstable_water] run function disaster:disaster/each/unstable_water/tick
+execute as @e[tag=disaster_earthquake] run function disaster:disaster/each/earthquake/tick
+execute as @e[tag=disaster_magic_star] run function disaster:disaster/each/magic_star/tick

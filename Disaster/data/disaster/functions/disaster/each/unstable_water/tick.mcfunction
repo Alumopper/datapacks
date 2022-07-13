@@ -1,0 +1,1 @@
+execute at @a if block ~ ~ ~ water if predicate disaster:1_100 run function disaster:disaster/each/unstable_water/do

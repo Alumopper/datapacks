@@ -1,0 +1,1 @@
+tellraw @s {"translate":"commands.seed.success","with":[["[",{"score":{"name":"*","objective":"lcg_seed_hi32"}},", ",{"score":{"name":"*","objective":"lcg_seed_lo16"}},"]"]]}

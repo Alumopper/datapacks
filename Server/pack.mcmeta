@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description":"服务器用数据包",
+        "pack_format": 10
+    }
+}

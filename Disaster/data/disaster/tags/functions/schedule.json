@@ -1,0 +1,7 @@
+{
+    "values": [
+        "disaster:disaster/each/corpse_tide/tick",
+        "disaster:disaster/each/meteorite_rain/trigger",
+        "disaster:disaster/each/storm/tick"
+    ]
+}
