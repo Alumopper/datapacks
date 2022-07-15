@@ -1,32 +1,32 @@
 #燃料添加
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:coal",Count:1b}}] run scoreboard players add @s dis_protower 1200
-kill @e[type=item,nbt={Item:{id:"minecraft:coal",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:coal",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:charcoal",Count:1b}}] run scoreboard players add @s dis_protower 1200
-kill @e[type=item,nbt={Item:{id:"minecraft:charcoal",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:charcoal",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:oak_planks",Count:1b}}] run scoreboard players add @s dis_protower 250
-kill @e[type=item,nbt={Item:{id:"minecraft:oak_planks",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:oak_planks",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:spruce_planks",Count:1b}}] run scoreboard players add @s dis_protower 250
-kill @e[type=item,nbt={Item:{id:"minecraft:spruce_planks",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:spruce_planks",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:birch_planks",Count:1b}}] run scoreboard players add @s dis_protower 250
-kill @e[type=item,nbt={Item:{id:"minecraft:birch_planks",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:birch_planks",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:jungle_planks",Count:1b}}] run scoreboard players add @s dis_protower 250
-kill @e[type=item,nbt={Item:{id:"minecraft:jungle_planks",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:jungle_planks",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:acacia_planks",Count:1b}}] run scoreboard players add @s dis_protower 250
-kill @e[type=item,nbt={Item:{id:"minecraft:acacia_planks",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:acacia_planks",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:dark_oak_planks",Count:1b}}] run scoreboard players add @s dis_protower 650
-kill @e[type=item,nbt={Item:{id:"minecraft:dark_oak_planks",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:dark_oak_planks",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:oak_log",Count:1b}}] run scoreboard players add @s dis_protower 650
-kill @e[type=item,nbt={Item:{id:"minecraft:oak_log",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:oak_log",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:birch_log",Count:1b}}] run scoreboard players add @s dis_protower 650
-kill @e[type=item,nbt={Item:{id:"minecraft:birch_log",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:birch_log",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:acacia_log",Count:1b}}] run scoreboard players add @s dis_protower 650
-kill @e[type=item,nbt={Item:{id:"minecraft:acacia_log",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:acacia_log",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:jungle_log",Count:1b}}] run scoreboard players add @s dis_protower 650
-kill @e[type=item,nbt={Item:{id:"minecraft:jungle_log",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:jungle_log",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:spruce_log",Count:1b}}] run scoreboard players add @s dis_protower 650
-kill @e[type=item,nbt={Item:{id:"minecraft:spruce_log",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:spruce_log",Count:1b}}]
 execute at @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:dark_oak_log",Count:1b}}] run scoreboard players add @s dis_protower 650
-kill @e[type=item,nbt={Item:{id:"minecraft:dark_oak_log",Count:1b}}]
+kill @e[type=item,distance=0..10,nbt={Item:{id:"minecraft:dark_oak_log",Count:1b}}]
 #自然回复能量
 execute store result score dis_daytime dis_temp run time query daytime 
 execute if score @s dis_protower matches ..100000 if score dis_daytime dis_temp matches 0..11834 run scoreboard players add @s dis_protower 3

@@ -42,4 +42,4 @@ bossbar add disaster:power "防御塔能量"
     bossbar set disaster:power max 100000
     bossbar set disaster:power color blue
 #
-tellraw @a "[天灾]ver b1.0.17 加载成功"
+tellraw @a "[天灾]ver b1.1.0 加载成功"
